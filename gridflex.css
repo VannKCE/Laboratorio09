@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    color: black;
+    background: rgb(239, 238, 255);
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: auto auto 1fr auto;
+}
+
+main {
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+}
+
+article {
+    flex: 3;
+    background: #fff;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+aside {
+    flex: 1;
+    background: #fff;
+    padding: 16px;
+    border-radius: 8px;
+}
