@@ -4,7 +4,21 @@ body {
     background: rgb(239, 238, 255);
     min-height: 100vh;
     display: grid;
-    grid-template-columns: auto auto 1fr auto;
+    grid-template-rows: auto auto 1fr auto;
+}
+
+header, nav, footer {
+    padding: 16px;
+    text-align: center;
+}
+
+header, footer {
+    background: black;
+    color: #fff;
+}
+
+nav {
+    background: rgb(189, 189, 248);
 }
 
 main {
